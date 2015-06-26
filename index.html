@@ -7,34 +7,36 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fontastic.s3.amazonaws.com/uHz4hLPzooBWYL96Yysa6F/icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="vendors/jquery/dist/jquery.js"></script>
+    <script src="scripts/app.js"></script>
 </head>
-
 <body>
-
   <div class="layout content-menu">
-
     <ul class="list-group content-menu-list">
       <li class="list-group-item"><span class="icon-home"></span><a href="#">Home</a></li>
         <li class="list-group-item"><span class="icon-user"></span><a href="#">John Smith</a></li>
         <li class="list-group-item"><span class="icon-anchor"></span><a href="#">About</a></li>
         <li class="list-group-item"><span class="icon-favorites"></span><a href="#">Favorites</a></li>
         <li class="list-group-item"><span class="icon-contacts"></span><a href="#">Contact</a></li>
-        <li class="list-group-item "></li>
+        <li class="list-group-item devider"></li>
         <li class="list-group-item"><span class="icon-page"></span><a href="#">Post Page</a></li>
         <li class="list-group-item"><span class="icon-page"></span><a href="#">Post with Sidebar</a></li>
         <li class="list-group-item"><span class="icon-page"></span><a href="#">Alternate Home</a></li>
         <li class="list-group-item"><span class="icon-page"></span><a href="#">Category Page</a></li>
     </ul>
-
   </div>
 
   <div class="layout content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          Left
+        <div class="left-panel col-xs-12 col-sm-4">
+          <section>
+            <div id="button-menu" class="button-menu">
+              <span class="icon icon-menu"></span>
+            </div>
+          </section>
         </div>
-        <div class="col-xs-12 col-sm-8">
+        <div class="right-panel col-xs-12 col-sm-8">
           Right
           <ul class="top_menu_on_the_right">
             <li>POSTS</li>
@@ -44,5 +46,6 @@
       </div>
     </div>
   </div>
+
 </body>
 </html>

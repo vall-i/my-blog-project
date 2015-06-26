@@ -20,6 +20,22 @@ body {
 	left: 0;
 	background-color: #fff;
 	z-index: 20;
-	background-color: grey;
 	transition: left .4s linear;
+}
+
+.layout {
+	.container-fluid,
+	.row,
+	.left-panel,
+	.right-panel {
+		height: 100%;
+	}
+	
+	.left-panel {
+		padding: 0;
+	}
+
+	.left-panel section{
+		height: 100%;
+	}
 }
