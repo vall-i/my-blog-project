@@ -5,6 +5,7 @@ html,body,.layout {
 }
 
 body {
+	overflow: hidden;
 	position: relative;
 }
 
@@ -20,7 +21,8 @@ body {
 	left: 0;
 	background-color: #fff;
 	z-index: 20;
-	transition: left .4s linear;
+	transition: left .1s linear;
+	box-shadow: 0px 2px 10px rgba(0,0,0,.2);
 }
 
 .layout {
@@ -30,12 +32,16 @@ body {
 	.right-panel {
 		height: 100%;
 	}
-	
+
 	.left-panel {
 		padding: 0;
 	}
 
 	.left-panel section{
 		height: 100%;
+	}
+
+	.right-panel {
+		padding: 25px 50px 0 50px;
 	}
 }
