@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fontastic.s3.amazonaws.com/uHz4hLPzooBWYL96Yysa6F/icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="vendors/jquery/dist/jquery.js"></script>
+    <script src="scripts/app.js"></script>
 </head>
 <body>
   <div class="layout content-menu">
@@ -27,12 +29,14 @@
   <div class="layout content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <section class="left-panel">
-
+        <div class="left-panel col-xs-12 col-sm-4">
+          <section>
+            <div id="button-menu" class="button-menu">
+              <span class="icon icon-menu"></span>
+            </div>
           </section>
         </div>
-        <div class="col-xs-12 col-sm-8">
+        <div class="right-panel col-xs-12 col-sm-8">
           Right
         </div>
       </div>

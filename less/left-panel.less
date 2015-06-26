@@ -1,11 +1,21 @@
 .left-panel {
-    position: relative;
-    .menu-button {
-        position: absolute;
-        left: 5px;
-        top: 5px;
-        width: 32px;
-        height: 32px;
-        background-color: gray;
+  position: relative;
+  .button-menu {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    padding: 4px;
+    cursor: pointer;
+    .icon {
+      font-size: 24px;
+      color: @text-color-secondary;
+      line-height: 24px;
     }
+    &:hover .icon {
+      color: @text-color-primary;
+    }
+  }
 }
