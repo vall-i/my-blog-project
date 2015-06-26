@@ -1,37 +1,20 @@
 .right-panel {
-
-	.article {
-    margin: 50px 10px 50px 0px;
-    display: flex;
-    flex-grow:1;
-    width: 960px;
-       
-}
-
-.article1 h2 {
-    font-size: 1.4em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-.article1   h3 {
-    font-size: 1em;
-    font-weight: bolder;
-    margin-top: 10px;
-}
-
-.article1  p {
-     margin-top: 50px;
-   
-}
-
-.photopeople1 {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0,0,0,0.3);
-    // background-image: url(http:///.png);
-    background-size: 100%;
-    margin-left: 50px;
-    flex: none;
-}
+	
+	.articles {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li {
+			position: relative;
+		}
+	}
+	
+	.photopeople {
+		position: absolute;
+		background-color: red;
+		top: 0;
+		right: 0;
+		width: 32px;
+		height: 32px;
+	}
 }
