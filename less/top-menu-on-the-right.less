@@ -3,11 +3,14 @@
 	border-bottom: 1px;
 	border-bottom-color: @not-hovered-menu;
 	border-bottom-style: solid;
+	margin: 0;
+    padding: 0;
 }
 
 .top_menu_on_the_right > li {
 	display: inline-block;
 	>a {
+		display: block;
 		margin: 30px 30px 5px 15px;
 		font-weight: bold;
 		font-size: 12px;
@@ -21,6 +24,9 @@
 		&:hover {
 			color: @hovered-menu;
 			border-bottom-color: @hovered-menu;
+		}
+		&:first-child {
+			margin-left: 0px;
 		}
 	}
 }
